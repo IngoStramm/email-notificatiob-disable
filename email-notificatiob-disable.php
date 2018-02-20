@@ -14,4 +14,4 @@ function email_notification_disable() {
 
 	add_filter( 'send_email_change_email', '__return_false' );
 
-} 
+}
