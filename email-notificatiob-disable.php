@@ -8,10 +8,5 @@ Author: Ingo Stramm
 License: GPLv2
 */
 
-add_action( 'init', 'email_notification_disable' );
 
-function email_notification_disable() {
-
-	add_filter( 'send_email_change_email', '__return_false' );
-
-}
+add_filter( 'send_email_change_email', '__return_false' );
